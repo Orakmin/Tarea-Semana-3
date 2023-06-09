@@ -1,0 +1,41 @@
+
+
+
+
+section p {
+    background-color: black;
+    color: white;
+}
+h1,h2{
+    text-align: center;
+}
+
+h1,h3,h5,h7{
+    background-color: black;
+    color: white;
+}
+h2,h4,h6,h8{
+    background-color: blue;
+    color: yellow;
+}
+
+
+thead tr{
+    background-color: black;
+    color: white;
+}
+tbody tr:nth-child(even){
+    background-color: red;
+    
+}
+tbody tr:nth-child(odd){
+    color: white ;
+    background-color: blue;
+    
+}
+
+figcaption {
+    color: red;
+    background: black;
+    
+}
